@@ -1,0 +1,13 @@
+#desarrollar un algoritmo que determine la mediana de un arreglo de enteros. numero que queda en la mitad depues de ordenar 
+
+arreglo = [12,11,3,5,6,43,7,1,32]
+
+def mediana(x):
+    x.sort()
+    if len(x) % 2 == 0:
+        calculo = (x[len(arreglo)//2] + x[len(arreglo)//2 - 1]) / 2
+    else:
+        calculo = x[len(arreglo)//2]
+        return calculo
+
+print(mediana(arreglo))
