@@ -1,0 +1,18 @@
+#desarrollar un programa que identifique si en una lista se identifican una cadena de dos o mas vocales , si se encuentran debe imprimirlas y si no 
+#imprimir que no se encuentran 
+
+lista = ["hola","buenas","tardes","adios"]
+
+def identificar_cade(x):
+    for i in x:
+        voc = 0
+        for j in i:
+            if j in "aeiou":
+                voc += 1
+                if voc >= 2:
+                    print(i)
+                    break
+            else:
+                voc = 0
+
+print(identificar_cade(lista))
