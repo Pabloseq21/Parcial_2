@@ -1,0 +1,12 @@
+#desarrollar un algoritmo que calcule el promedio de un arreglo de reales
+
+arreglo = [1.2,2.4,5.6,4.6]
+
+def promedio():
+    suma = 0
+    for i in arreglo:
+        suma += i
+    promedio = suma / len(arreglo)
+    return promedio 
+
+print(promedio())
