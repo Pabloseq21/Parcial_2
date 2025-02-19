@@ -1,7 +1,6 @@
 # Parcial_2
 Parcial #2 Juan Pablo Gomez 
 [Parcial #2.pdf](https://github.com/user-attachments/files/18875351/Parcial.2.pdf)
-[Uploading Parcial #2.pdf…]()
 Parcial #2 
 Universidad Nacional de Colombia 
 Juan Pablo Gómez Sequeda 
